@@ -57,6 +57,9 @@
 - **`largest_prime_factor.py`** — наибольший простой делитель числа (Project Euler #3).
   Запуск: `python3 largest_prime_factor.py`
 
+- **`letter_count_and_positions.py`** — подсчёт количества и позиций заданной буквы в строке.
+  Запуск: `python3 letter_count_and_positions.py`
+
 - **`list_generation_methods.py`** — три способа создания списка из `range()`.
   Запуск: `python3 list_generation_methods.py`
 
