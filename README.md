@@ -15,114 +15,50 @@
 
 ## Программы на Python
 
-- **`alphabet_positions.py`** — преобразование строки в номера букв алфавита (рус./англ.).
-  Запуск: `python3 alphabet_positions.py`
-
-- **`combinations_generator.py`** — генерация всех комбинаций из заданного набора символов (например, нуклеотиды).
-  Запуск: `python3 combinations_generator.py`
-
-- **`cyclic_repeat_string.py`** — циклическое повторение строки до нужной длины (с дробным коэффициентом).
-  Запуск: `python3 cyclic_repeat_string.py`
-
-- **`dataclass_user_demo.py`** — демонстрация `dataclass` и динамического добавления атрибутов.
-  Запуск: `python3 dataclass_user_demo.py`
-
-- **`dict_comprehension_invert.py`** — генерация словаря и инверсия ключей/значений с `pprint`.
-  Запуск: `python3 dict_comprehension_invert.py`
-
-- **`dict_merge_unpack.py`** — объединение словарей (распаковка, `update`, оператор `|`).
-  Запуск: `python3 dict_merge_unpack.py`
-
-- **`euler001_multiples_of_3_and_5.py`** — решение Project Euler #1 (сумма кратных 3 или 5).
-  Запуск: `python3 euler001_multiples_of_3_and_5.py`
-
-- **`eval_sum_expression.py`** — вычисление выражения `0+1+...+n-1` через `eval()`.
-  Запуск: `python3 eval_sum_expression.py`
-
-- **`extract_digits_to_int.py`** — извлечение целого числа из строки (удаление нецифровых символов).
-  Запуск: `python3 extract_digits_to_int.py`
-
-- **`file_write_read_demo.py`** — запись чисел в файл и чтение первой строки.
-  Запуск: `python3 file_write_read_demo.py`
-
-- **`find_char_positions.py`** — поиск всех позиций символа в строке (через `index` и `enumerate`).
-  Запуск: `python3 find_char_positions.py`
-
-- **`fizzbuzz_variants.py`** — четыре варианта реализации FizzBuzz.
-  Запуск: `python3 fizzbuzz_variants.py`
-
-- **`invert_dict.py`** — обмен ключей и значений в словаре.
-  Запуск: `python3 invert_dict.py`
-
-- **`largest_prime_factor.py`** — наибольший простой делитель числа (Project Euler #3).
-  Запуск: `python3 largest_prime_factor.py`
-
-- **`letter_count_and_positions.py`** — подсчёт количества и позиций заданной буквы в строке.
-  Запуск: `python3 letter_count_and_positions.py`
-
-- **`list_generation_methods.py`** — три способа создания списка из `range()`.
-  Запуск: `python3 list_generation_methods.py`
-
-- **`list_mutation_demo.py`** — изменение списка внутри функции (append, extend, срезы).
-  Запуск: `python3 list_mutation_demo.py`
-
-- **`palindrome_products.py`** — поиск палиндромов-произведений (брутфорс).
-  Запуск: `python3 palindrome_products.py`
-
-- **`palindrome_products_generate.py`** — оптимизированная генерация палиндромов-произведений.
-  Запуск: `python3 palindrome_products_generate.py`
-
-- **`prime_numbers_sieve.py`** — поиск простых чисел (наивный и решето Эратосфена).
-  Запуск: `python3 prime_numbers_sieve.py`
-
-- **`replace_single_asterisk.py`** — замена одиночных `*` на `!`, сохраняя `**`.
-  Запуск: `python3 replace_single_asterisk.py`
-
-- **`reverse_sequence.py`** — переворот кортежа/списка через срез.
-  Запуск: `python3 reverse_sequence.py`
-
-- **`reverse_string_generator.py`** — рекурсивный генератор для разворота строки.
-  Запуск: `python3 reverse_string_generator.py`
-
-- **`season_by_month.py`** — определение времени года по номеру месяца.
-  Запуск: `python3 season_by_month.py`
-
-- **`sum_of_cubes_digit_sum_divisible_by_7.py`** — сумма кубов чисел, сумма цифр которых кратна 7.
-  Запуск: `python3 sum_of_cubes_digit_sum_divisible_by_7.py`
-
-- **`text_cleaner.py`** — очистка текстовых файлов от нежелательных символов (сохраняет буквы, цифры, пробелы и знаки препинания).
-  Запуск: `python3 text_cleaner.py <входной_файл> [выходной_файл]`
+| Файл | Описание | Запуск |
+|------|----------|--------|
+| `alphabet_positions.py` | Номера букв в алфавите (рус./англ.) | `python3 alphabet_positions.py` |
+| `combinations_generator.py` | Генерация комбинаций из символов | `python3 combinations_generator.py` |
+| `cyclic_repeat_string.py` | Циклическое повторение строки | `python3 cyclic_repeat_string.py` |
+| `dataclass_user_demo.py` | Демонстрация `dataclass` | `python3 dataclass_user_demo.py` |
+| `dict_comprehension_invert.py` | Генерация и инверсия словаря | `python3 dict_comprehension_invert.py` |
+| `dict_merge_unpack.py` | Объединение словарей | `python3 dict_merge_unpack.py` |
+| `euler001_multiples_of_3_and_5.py` | Сумма кратных 3 или 5 (Project Euler #1) | `python3 euler001_multiples_of_3_and_5.py` |
+| `eval_sum_expression.py` | Вычисление `0+1+...+n-1` через `eval()` | `python3 eval_sum_expression.py` |
+| `extract_digits_to_int.py` | Извлечение числа из строки | `python3 extract_digits_to_int.py` |
+| `file_write_read_demo.py` | Запись и чтение файла | `python3 file_write_read_demo.py` |
+| `find_char_positions.py` | Поиск позиций символа | `python3 find_char_positions.py` |
+| `fizzbuzz_variants.py` | Четыре варианта FizzBuzz | `python3 fizzbuzz_variants.py` |
+| `invert_dict.py` | Обмен ключей и значений | `python3 invert_dict.py` |
+| `largest_prime_factor.py` | Наибольший простой делитель | `python3 largest_prime_factor.py` |
+| `letter_count_and_positions.py` | Подсчёт букв и их позиций | `python3 letter_count_and_positions.py` |
+| `list_generation_methods.py` | Три способа создания списка | `python3 list_generation_methods.py` |
+| `list_mutation_demo.py` | Мутация списка в функции | `python3 list_mutation_demo.py` |
+| `palindrome_products.py` | Палиндромы-произведения (брутфорс) | `python3 palindrome_products.py` |
+| `palindrome_products_generate.py` | Оптимизированная генерация | `python3 palindrome_products_generate.py` |
+| `prime_numbers_sieve.py` | Простые числа (решето) | `python3 prime_numbers_sieve.py` |
+| `replace_single_asterisk.py` | Замена `*` на `!` | `python3 replace_single_asterisk.py` |
+| `reverse_sequence.py` | Переворот кортежа/списка | `python3 reverse_sequence.py` |
+| `reverse_string_generator.py` | Разворот строки генератором | `python3 reverse_string_generator.py` |
+| `season_by_month.py` | Время года по номеру месяца | `python3 season_by_month.py` |
+| `sum_of_cubes_digit_sum_divisible_by_7.py` | Сумма кубов с условием | `python3 sum_of_cubes_digit_sum_divisible_by_7.py` |
+| `text_cleaner.py` | Очистка текстовых файлов | `python3 text_cleaner.py <входной_файл> [выходной]` |
 
 ---
 
 ## Программы на C
 
-- **`palindrome_index.c`** — проверка строки на палиндром (по индексам).
-  Компиляция и запуск: `gcc -std=c11 palindrome_index.c -o palindrome_index && ./palindrome_index`
-
-- **`palindrome_pointer.c`** — проверка строки на палиндром (через указатели).
-  Компиляция и запуск: `gcc -std=c11 palindrome_pointer.c -o palindrome_pointer && ./palindrome_pointer`
-
-- **`palindrome_manual.c`** — проверка строки на палиндром (посимвольное чтение).
-  Компиляция и запуск: `gcc -std=c11 palindrome_manual.c -o palindrome_manual && ./palindrome_manual`
-
-- **`rad_to_deg.c`** — перевод радиан в градусы с банковским округлением.
-  Компиляция и запуск: `gcc -std=c11 rad_to_deg.c -lm -o rad_to_deg && ./rad_to_deg`
-
-- **`remove_last_substr_strstr.c`** — удаление последнего вхождения подстроки (через `strstr`).
-  Компиляция и запуск: `gcc -std=c11 remove_last_substr_strstr.c -o remove_last_substr_strstr && ./remove_last_substr_strstr`
-
-- **`remove_last_substr_manual.c`** — удаление последнего вхождения подстроки (ручной поиск).
-  Компиляция и запуск: `gcc -std=c11 remove_last_substr_manual.c -o remove_last_substr_manual && ./remove_last_substr_manual`
-
-- **`groot.c`** — вывод фразы `"I'm Groot." (c) Groot`.
-  Компиляция и запуск: `gcc -std=c11 groot.c -o groot && ./groot`
-
-- **`binomial_coefficients.c`** — вывод биномиальных коэффициентов C(n, k) для k=0..n.
-  Компиляция и запуск: `gcc -std=c11 binomial_coefficients.c -o binomial_coefficients && ./binomial_coefficients`
-
-- **`max_before_minus_one.c`** — нахождение максимума в последовательности, оканчивающейся -1.
-  Компиляция и запуск: `gcc -std=c11 max_before_minus_one.c -o max_before_minus_one && ./max_before_minus_one`
+| Файл | Описание | Сборка и запуск |
+|------|----------|-----------------|
+| `palindrome_index.c` | Проверка палиндрома (индексы) | `gcc -std=c11 palindrome_index.c -o palindrome_index && ./palindrome_index` |
+| `palindrome_pointer.c` | Проверка палиндрома (указатели) | `gcc -std=c11 palindrome_pointer.c -o palindrome_pointer && ./palindrome_pointer` |
+| `palindrome_manual.c` | Проверка палиндрома (посимвольно) | `gcc -std=c11 palindrome_manual.c -o palindrome_manual && ./palindrome_manual` |
+| `rad_to_deg.c` | Перевод радиан в градусы | `gcc -std=c11 rad_to_deg.c -lm -o rad_to_deg && ./rad_to_deg` |
+| `remove_last_substr_strstr.c` | Удаление подстроки (strstr) | `gcc -std=c11 remove_last_substr_strstr.c -o remove_last_substr_strstr && ./remove_last_substr_strstr` |
+| `remove_last_substr_manual.c` | Удаление подстроки (ручной) | `gcc -std=c11 remove_last_substr_manual.c -o remove_last_substr_manual && ./remove_last_substr_manual` |
+| `groot.c` | Вывод "I'm Groot." | `gcc -std=c11 groot.c -o groot && ./groot` |
+| `binomial_coefficients.c` | Биномиальные коэффициенты | `gcc -std=c11 binomial_coefficients.c -o binomial_coefficients && ./binomial_coefficients` |
+| `max_before_minus_one.c` | Максимум до -1 | `gcc -std=c11 max_before_minus_one.c -o max_before_minus_one && ./max_before_minus_one` |
 
 ---
 
@@ -169,5 +105,5 @@ gcc -std=c11 -Wall -Wextra -O2 имя_файла.c -o имя_файла
 
 ---
 
-**Автор:** pavel-maru
+**Автор:** [pavel-maru]
 **Репозиторий:** [https://github.com/pavel-maru/sandbox](https://github.com/pavel-maru/sandbox)
