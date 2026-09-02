@@ -105,5 +105,6 @@ gcc -std=c11 -Wall -Wextra -O2 имя_файла.c -o имя_файла
 
 ---
 
-**Автор:** [pavel-maru]
+**Автор:** pavel-maru
+
 **Репозиторий:** [https://github.com/pavel-maru/sandbox](https://github.com/pavel-maru/sandbox)
